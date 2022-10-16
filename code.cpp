@@ -81,11 +81,11 @@ int main()
     }
 
     int x;
-    cout << "ENTER THE ELEMENT TO SEARCH FOR : ";
+    cout << "Which element do you want to search for ? ";
     cin >> x;
     cout << endl;
 
-    cout << "Index of " << x << " from LINEAR SEARCH is : " << linear_search(arr, x) << endl;
-    cout << "Index of " << x << " from BINARY SEARCH is : " << binary_search(arr, x) << endl;
+    cout << "Index of " << x << " by using LINEAR SEARCH is : " << linear_search(arr, x) << endl;
+    cout << "Index of " << x << " by using BINARY SEARCH is : " << binary_search(arr, x) << endl;
     delete[] arr;
 }
